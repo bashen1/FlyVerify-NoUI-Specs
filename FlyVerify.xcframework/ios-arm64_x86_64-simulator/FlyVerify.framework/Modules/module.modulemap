@@ -1,0 +1,13 @@
+//
+//  module.modulemap
+//  FlyVerify
+//
+//  Created by fly on 2024/4/23.
+//  Copyright © 2024 fly. All rights reserved.
+//
+
+framework module FlyVerify {
+    umbrella header "FlySDKVerify-umbrella.h"
+    export *
+    module * { export * }
+}
